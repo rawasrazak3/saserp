@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include saserp *.css
+recursive-include saserp *.csv
+recursive-include saserp *.html
+recursive-include saserp *.ico
+recursive-include saserp *.js
+recursive-include saserp *.json
+recursive-include saserp *.md
+recursive-include saserp *.png
+recursive-include saserp *.py
+recursive-include saserp *.svg
+recursive-include saserp *.txt
+recursive-exclude saserp *.pyc
