@@ -9,7 +9,13 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+fixtures = [
+    "Custom Field",
+    "Sales Invoice",
+    "Sales Order",
+    "Property Setter",
+    "DocType Layout"
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/saserp/css/saserp.css"
 # app_include_js = "/assets/saserp/js/saserp.js"
