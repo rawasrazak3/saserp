@@ -14,7 +14,11 @@ fixtures = [
     "Sales Invoice",
     "Sales Order",
     "Property Setter",
-    "DocType Layout"
+    "DocType Layout",
+    "Purchase Order",
+    "Purchase Invoice",
+    "Purchase Receipt",
+    "Quotation"
 ]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/saserp/css/saserp.css"
