@@ -1,6 +1,6 @@
-## SASERP
+## Saserp
 
-Integrate for a better tomorrow- SAS ERP
+SAS Technologies Co. W.L.L
 
 #### License
 

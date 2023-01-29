@@ -1,25 +1,15 @@
 from . import __version__ as app_version
 
 app_name = "saserp"
-app_title = "SASERP"
+app_title = "Saserp"
 app_publisher = "SAS Technologies Co. W.L.L"
-app_description = "Integrate for a better tomorrow- SAS ERP"
+app_description = "SAS Technologies Co. W.L.L"
 app_email = "erp@sastechnologies.co"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-fixtures = [
-    "Custom Field",
-    "Sales Invoice",
-    "Sales Order",
-    "Property Setter",
-    "DocType Layout",
-    "Purchase Order",
-    "Purchase Invoice",
-    "Purchase Receipt",
-    "Quotation"
-]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/saserp/css/saserp.css"
 # app_include_js = "/assets/saserp/js/saserp.js"

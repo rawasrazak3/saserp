@@ -9,7 +9,7 @@ from saserp import __version__ as version
 setup(
 	name="saserp",
 	version=version,
-	description="Integrate for a better tomorrow- SAS ERP",
+	description="SAS Technologies Co. W.L.L",
 	author="SAS Technologies Co. W.L.L",
 	author_email="erp@sastechnologies.co",
 	packages=find_packages(),
