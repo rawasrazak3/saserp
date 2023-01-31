@@ -190,3 +190,57 @@ app_license = "MIT"
 # auth_hooks = [
 #	"saserp.auth.validate"
 # ]
+
+fixtures=[
+    {
+        "doctype": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Purchase Receipt-set_posting_time-default",
+                    "Purchase Receipt-set_posting_time-hidden",
+                    "Purchase Receipt-additional_info_section-collapsible",
+                    "Purchase Invoice-set_posting_time-hidden",
+                    "Purchase Invoice-set_posting_time-default"
+                ]
+            ]
+        ]
+    },
+    {
+    	"doctype": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Sales Invoice-other_details",
+                    "Sales Invoice-column_break_205",
+                    "Sales Invoice-column_break_206",
+                    "Sales Invoice-column_break_207",
+                    "Sales Invoice-column_break_208",
+                    "Purchase Order-column_break_150"
+                ]
+            ]
+        ]
+    },
+    {
+    	"doctype": "DocType Layout",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Quotation",
+                    "Purchase Receipt",
+                    "Purchase Order",
+                    "Purchase Invoice",
+                    "Sales Order",
+                    "Sales Invoice",
+                    "Lead"
+                ]
+            ]
+        ]
+    }
+]

@@ -507,20 +507,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "company",
-    "label": "Company",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "company_tax_id",
-    "label": "Company Tax ID",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "posting_date",
     "label": "Date",
     "parent": "Sales Invoice",
@@ -1851,6 +1837,20 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_tax_id",
+    "label": "Company Tax ID",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "column_break_205",
     "label": null,
     "parent": "Sales Invoice",
@@ -1949,7 +1949,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-01-16 17:07:25.107365",
+  "modified": "2023-01-31 14:42:40.447418",
   "name": "Sales Invoice",
   "route": "/apps/sales_invoice/"
  },
@@ -2046,13 +2046,6 @@
    {
     "fieldname": "po_date",
     "label": "Customer's Purchase Order Date",
-    "parent": "Sales Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "company",
-    "label": "Company",
     "parent": "Sales Order",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -3010,6 +3003,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Sales Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "order_type",
     "label": "Order Type",
     "parent": "Sales Order",
@@ -3052,7 +3052,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-01-11 19:56:14.736841",
+  "modified": "2023-01-31 14:43:49.398190",
   "name": "Sales Order",
   "route": "/apps/sales_order/"
  },
@@ -3135,13 +3135,6 @@
    {
     "fieldname": "schedule_date",
     "label": "Required By",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "company",
-    "label": "Company",
     "parent": "Purchase Order",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -4029,6 +4022,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "naming_series",
     "label": "Series",
     "parent": "Purchase Order",
@@ -4120,7 +4120,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-01-22 15:11:50.031877",
+  "modified": "2023-01-31 14:46:07.832907",
   "name": "Purchase Order",
   "route": "/apps/purchase_order/"
  },
@@ -4196,13 +4196,6 @@
    {
     "fieldname": "column_break_12",
     "label": null,
-    "parent": "Purchase Receipt",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "company",
-    "label": "Company",
     "parent": "Purchase Receipt",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -5034,6 +5027,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Purchase Receipt",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "naming_series",
     "label": "Series",
     "parent": "Purchase Receipt",
@@ -5118,7 +5118,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-01-22 15:57:35.948611",
+  "modified": "2023-01-31 14:47:17.708024",
   "name": "Purchase Receipt",
   "route": "/apps/purchase_receipt/"
  },
@@ -5194,13 +5194,6 @@
    {
     "fieldname": "order_type",
     "label": "Order Type",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "company",
-    "label": "Company",
     "parent": "Quotation",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -5927,6 +5920,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "column_break_108",
     "label": null,
     "parent": "Quotation",
@@ -5983,7 +5983,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-01-22 16:08:08.316021",
+  "modified": "2023-01-31 14:48:18.830489",
   "name": "Quotation",
   "route": "/apps/quotation/"
  },
@@ -6024,13 +6024,6 @@
    {
     "fieldname": "tax_id",
     "label": "Tax Id",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "company",
-    "label": "Company",
     "parent": "Purchase Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -7212,6 +7205,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "naming_series",
     "label": "Series",
     "parent": "Purchase Invoice",
@@ -7275,7 +7275,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-01-22 19:58:11.704048",
+  "modified": "2023-01-31 14:45:04.372397",
   "name": "Purchase Invoice",
   "route": "/apps/purchase_invoice/"
  }
